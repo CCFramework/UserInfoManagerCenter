@@ -3,8 +3,8 @@ Untitled Note
 
 介绍
 
-结合FastCoder,利用单例模式封装的UserInfoManagerCenter数缓存工具类.
-以字典方式存储对象,Value存储类型利用FastCoder转换为NSData类型,数据相对更加安全和传递.
+结合FastCoder,利用单例模式封装的UserInfoManagerCenter数据缓存类.
+以字典(value,key)方式存储对象和获取对象,Value存储类型利用FastCoder转换为NSData类型,数据传递和存储变得更加便捷可靠.
 
 使用方法
 
