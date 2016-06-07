@@ -1,6 +1,0 @@
-framework module UserInfoManagerCenter {
-  umbrella header "UserInfoManagerCenter.h"
-
-  export *
-  module * { export * }
-}

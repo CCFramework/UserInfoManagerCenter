@@ -1,15 +1,25 @@
 //
 //  UserInfoManagerCenter.h
-//  DesignPattern-Singleton Pattern
+//  UserInfoManagerCenter
 //
 //  Created by LIFEIHENG on 16/6/8.
 //  Copyright © 2016年 LIFEIHENG. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+//! Project version number for UserInfoManagerCenter.
+FOUNDATION_EXPORT double UserInfoManagerCenterVersionNumber;
+
+//! Project version string for UserInfoManagerCenter.
+FOUNDATION_EXPORT const unsigned char UserInfoManagerCenterVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <UserInfoManagerCenter/PublicHeader.h>
+
 
 /*
- (注:不可使用alloc init方式获取UserInfoManagerCenter实例对象,否则程序会....!)
+ (注:UserInfoManagerCenter严格使用了单例模式设计,不可使用alloc init方式获取UserInfoManagerCenter实例对象,否则程序会....!)
+ FastCoder 请手动打开MRC -> -fno-objc-arc
  */
 
 @interface UserInfoManagerCenter : NSObject

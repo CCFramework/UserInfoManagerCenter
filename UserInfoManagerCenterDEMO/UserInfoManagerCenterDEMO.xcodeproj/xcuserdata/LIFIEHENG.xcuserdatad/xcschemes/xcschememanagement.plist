@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UserInfoManagerCenter.xcscheme</key>
+		<key>UserInfoManagerCenterDEMO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3BE2CC371D075A2600B34A9C</key>
+		<key>3B3E09471D078A6900F4782F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
