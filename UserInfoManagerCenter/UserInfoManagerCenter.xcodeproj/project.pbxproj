@@ -11,6 +11,8 @@
 		3BE2CC481D075A4000B34A9C /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2CC451D075A4000B34A9C /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3BE2CC491D075A4000B34A9C /* UserInfoManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2CC461D075A4000B34A9C /* UserInfoManagerCenter.m */; };
 		3BE2CC4B1D075A5700B34A9C /* UserInfoManagerCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE2CC4A1D075A5700B34A9C /* UserInfoManagerCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BFFED551D07756700490CAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFFED541D07756700490CAA /* UIKit.framework */; };
+		3BFFED571D07757000490CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFFED561D07757000490CAA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3BE2CC451D075A4000B34A9C /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
 		3BE2CC461D075A4000B34A9C /* UserInfoManagerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManagerCenter.m; sourceTree = "<group>"; };
 		3BE2CC4A1D075A5700B34A9C /* UserInfoManagerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManagerCenter.h; sourceTree = "<group>"; };
+		3BFFED541D07756700490CAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BFFED561D07757000490CAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFFED571D07757000490CAA /* Foundation.framework in Frameworks */,
+				3BFFED551D07756700490CAA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +42,8 @@
 		3BE2CC2E1D075A2600B34A9C = {
 			isa = PBXGroup;
 			children = (
+				3BFFED561D07757000490CAA /* Foundation.framework */,
+				3BFFED541D07756700490CAA /* UIKit.framework */,
 				3BE2CC3A1D075A2600B34A9C /* UserInfoManagerCenter */,
 				3BE2CC391D075A2600B34A9C /* Products */,
 			);
@@ -193,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -247,6 +255,7 @@
 		3BE2CC411D075A2600B34A9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -264,6 +273,7 @@
 		3BE2CC421D075A2600B34A9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
