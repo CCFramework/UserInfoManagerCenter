@@ -35,3 +35,6 @@
     //查看缓存
     NSLog(@"清空缓存:%@",[[UserInfoManagerCenter managerCenter] userCenterFullInfo]);
 }
+
+
+
