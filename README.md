@@ -8,7 +8,7 @@ Untitled Note
 
 使用方法
 
-#import "UserInfoManagerCenter.h"
+     #import "UserInfoManagerCenter.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
