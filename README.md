@@ -12,27 +12,38 @@ Untitled Note
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    NSDictionary *user = @{@"name" : @"JerryLee",
-                           @"mail" : @"13691259899@qq.com",
-                           @"phone" : @12345678901,
-                           @"sex" : @"男",};
+    NSDictionary *user = @{@"name" : @"JerryLee",@"mail" : @"13691259899@qq.com",@"phone" : @12345678901,@"sex" : @"男",};
+    
     //缓存数据
+    
     [[UserInfoManagerCenter managerCenter] setValueToUserCenter:user forKey:@"user"];
 
     return YES;
+    
 }
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
     
     //查看缓存数据
+    
     NSLog(@"以NSData方法缓存数据:%@",[[UserInfoManagerCenter managerCenter] userCenterFullInfo]);
+    
     NSLog(@"获取数据转为NSDictionary:%@",[[UserInfoManagerCenter managerCenter] objectForKey:@"user"]);
+    
     //获取缓存数据
+    
     NSDictionary *dic = [[UserInfoManagerCenter managerCenter] objectForKey:@"user"];
+    
     NSLog(@"%@",dic[@"name"]);
+    
     //清空缓存
+    
     [[UserInfoManagerCenter managerCenter] removeUserInfoManagerCenterCache];
+    
     //查看缓存
+    
     NSLog(@"清空缓存:%@",[[UserInfoManagerCenter managerCenter] userCenterFullInfo]);
+    
 }
