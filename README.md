@@ -1,3 +1,4 @@
+Untitled Note
 # UserInfoManagerCenter
 
 介绍
@@ -35,6 +36,3 @@
     //查看缓存
     NSLog(@"清空缓存:%@",[[UserInfoManagerCenter managerCenter] userCenterFullInfo]);
 }
-
-
-
