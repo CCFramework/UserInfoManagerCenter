@@ -12,7 +12,7 @@ Untitled Note
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    NSDictionary *user = @{@"name" : @"JerryLee",@"mail" : @"13691259899@qq.com",@"phone" : @12345678901,@"sex" : @"男",};
+    NSDictionary *user = @{@"name" : @"JerryLee",@"mail" : @"1919345806@qq.com",@"phone" : @12345678901,@"sex" : @"男",};
     
     //缓存数据
     
