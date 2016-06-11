@@ -15,7 +15,6 @@ Untitled Note
           NSDictionary *user = @{@"name" : @"JerryLee",@"mail" : @"1919345806@qq.com",@"phone" : @12345678901,@"sex" : @"男",};
     
           //缓存数据
-    
           [[UserInfoManagerCenter managerCenter] setValueToUserCenter:user forKey:@"user"];
 
           return YES;
